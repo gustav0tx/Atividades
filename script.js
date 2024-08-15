@@ -1,9 +1,9 @@
-// nome completo
-let nome = prompt('Qual é o seu nome?');
-let sobrenome = prompt ('E seu sobrenome?');
-// idade 
-let idade = prompt('Qual é a seu ano de nascimento?');
-
-//Curso 
-let curso = prompt('Qual é o seu curso?');
-alert ('Olá' + ' ' + nome + ' ' + sobrenome + '\n' + 'Então você estuda' + ' ' + curso + '\n' + 'e tem' + ' ' + (2024 - idade)  + ' ' + 'anos de idade.' + ' ' + 'legal')
+let nume1= prompt('Primeiro número');
+let nume2 = prompt( 'Segundo número');
+nume1 = parseInt(nume1);
+nume2 = parseInt(nume2);
+let adição = nume1 + nume2;
+let subtração = nume1 - nume2;
+let muliplicação = nume1 * nume2;
+let divisão = nume1 / nume2;
+alert( nume1 + ' + ' + nume2 + ' = ' + adição + '\n' + nume1 + ' - ' + nume2 + ' = ' + subtração +'\n' + nume1 + ' * ' + nume2 + ' = ' + muliplicação + '\n' + nume1 + ' / ' + nume2 + ' = ' + divisão );
